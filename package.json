@@ -1,0 +1,17 @@
+{
+  "name": "cntrain",
+  "version": "0.0.1",
+  "description": "",
+  "author": "FantasyShao <fantasyshao@icloud.com>",
+  "repository": "git@github.com:SFantasy/node-train.git",
+  "bin": {
+      "cntrain": "./bin/cntrain"
+  },
+  "keywords": [
+    "train",
+    "schedule"
+  ],
+  "dependencies": {
+    "commander": "^2.5.1"
+  }
+}

@@ -1,0 +1,9 @@
+#!/usr/bin/env node
+
+var program = require('commander');
+var pkg = require('../package.json');
+
+program
+    .version(pkg.version)
+    .option('-n, --number', '查询列车时刻表')
+    .parse(process.argv);
