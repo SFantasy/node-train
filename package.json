@@ -5,13 +5,15 @@
   "author": "FantasyShao <fantasyshao@icloud.com>",
   "repository": "git@github.com:SFantasy/node-train.git",
   "bin": {
-      "cntrain": "./bin/cntrain"
+    "cntrain": "./bin/cntrain"
   },
   "keywords": [
     "train",
     "schedule"
   ],
   "dependencies": {
-    "commander": "^2.5.1"
-  }
+    "commander": "^2.5.1",
+    "request": "^2.51.0"
+  },
+  "devDependencies": {}
 }

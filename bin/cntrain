@@ -1,9 +1,15 @@
 #!/usr/bin/env node
 
 var program = require('commander');
+
 var pkg = require('../package.json');
+var cntrain = require('../lib/index');
 
 program
     .version(pkg.version)
     .option('-n, --number', '查询列车时刻表')
     .parse(process.argv);
+
+if (program.number) {
+    cntrain.schedule(program.number)
+}
