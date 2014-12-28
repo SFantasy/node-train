@@ -11,5 +11,5 @@ program
     .parse(process.argv);
 
 if (program.number) {
-    cntrain.schedule(program.number)
+    cntrain.schedule(program.args[0]);
 }

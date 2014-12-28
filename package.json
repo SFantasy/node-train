@@ -12,6 +12,7 @@
     "schedule"
   ],
   "dependencies": {
+    "colors": "^1.0.3",
     "commander": "^2.5.1",
     "request": "^2.51.0"
   },
