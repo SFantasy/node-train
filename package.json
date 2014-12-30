@@ -1,7 +1,7 @@
 {
   "name": "cntrain",
-  "version": "0.0.2",
-  "description": "",
+  "version": "0.0.3",
+  "description": "Query things about Chinese railway via CLI.",
   "author": "FantasyShao <fantasyshao@icloud.com>",
   "repository": "git@github.com:SFantasy/node-train.git",
   "bin": {
@@ -9,7 +9,8 @@
   },
   "keywords": [
     "train",
-    "schedule"
+    "schedule",
+    "railway"
   ],
   "dependencies": {
     "colors": "^1.0.3",

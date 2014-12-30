@@ -1,6 +1,8 @@
 node-train
 ---
 
+Query things about Chinese railway via CLI.
+
 ## Install
 
 ```
@@ -9,9 +11,27 @@ node-train
 
 ## Usage
 
+- Query train schedule
+
+```sh
+cntrain -n g1
 ```
-cntrain
+
+- Look for help
+
+```sh
+cntrain -h
 ```
+
+- Get the vertion
+
+```sh
+cntrain -V
+```
+
+## Credits
+
+- Using [Qunar](//qunar.com)'s API
 
 ## License
 
