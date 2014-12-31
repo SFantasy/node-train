@@ -1,6 +1,6 @@
 {
   "name": "cntrain",
-  "version": "0.0.3",
+  "version": "0.1.0",
   "description": "Query things about Chinese railway via CLI.",
   "author": "FantasyShao <fantasyshao@icloud.com>",
   "repository": "git@github.com:SFantasy/node-train.git",
@@ -13,9 +13,10 @@
     "railway"
   ],
   "dependencies": {
+    "chepiao-sdk": "^0.1.0",
+    "cli-table": "^0.3.1",
     "colors": "^1.0.3",
-    "commander": "^2.5.1",
-    "request": "^2.51.0"
+    "commander": "^2.5.1"
   },
   "devDependencies": {}
 }

@@ -39,10 +39,6 @@ cntrain -h
 cntrain -V
 ```
 
-## Credits
-
-- Using [Qunar](//qunar.com)'s API
-
 ## License
 
 The MIT License
