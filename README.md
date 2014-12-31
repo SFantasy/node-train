@@ -45,6 +45,16 @@ cntrain -h
 cntrain -V
 ```
 
+## Screenshot
+
+- Query train schedule
+
+![screenshot1](screenshot1.png)
+
+- Query left tickets
+
+![screenshot2](screenshot2.png)
+
 ## License
 
 The MIT License
