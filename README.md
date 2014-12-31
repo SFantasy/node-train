@@ -27,6 +27,12 @@ Query things about Chinese railway via CLI.
 cntrain -n g1
 ```
 
+- Query left tickets
+
+```sh
+cntrain -f 南京南 -t 北京南 -d 2015-01-05
+```
+
 - Look for help
 
 ```sh
