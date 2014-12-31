@@ -7,9 +7,16 @@ var cntrain = require('../lib/index');
 
 program
     .version(pkg.version)
-    .option('-n, --number', '查询列车时刻表')
+    .option('-n, --number <number>', '查询列车时刻表')
+    .option('-f, --from <name>', '起点站')
+    .option('-t, --to <name>', '到达站')
+    .option('-d, --date <date>', '日期')
     .parse(process.argv);
 
 if (program.number) {
-    cntrain.schedule(program.args[0]);
+    cntrain.schedule(program.number);
+}
+
+if (program.from && program.to && program.date) {
+    cntrain.queryTickets(program.date, program.from, program.to);
 }

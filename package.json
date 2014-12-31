@@ -1,6 +1,6 @@
 {
   "name": "cntrain",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Query things about Chinese railway via CLI.",
   "author": "FantasyShao <fantasyshao@icloud.com>",
   "repository": "git@github.com:SFantasy/node-train.git",
