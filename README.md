@@ -11,7 +11,9 @@ node-train
 
 [![NPM](https://nodei.co/npm/cntrain.png?downloads&downloadRank)](https://nodei.co/npm/cntrain/)
 
-Query things about Chinese railway via CLI.
+Sample Node.js CLI project using [node-chepiao-sdk](https://github.com/SFantasy/node-chepiao-sdk)
+
+> **NOTE**: The API key maybe outdated when you using it
 
 ## Install
 
